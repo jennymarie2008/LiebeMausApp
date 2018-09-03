@@ -31,10 +31,11 @@
 <div class="container-fluid">
   <div class="row">
     <% @products.each do |product| %>
-      <div class="col-sm-2 col-md-4">
+      <div class="col-sm-4 col-md-8">
         <a href="#"><h2><%= product.name %></h2></a>
-        <%= image_tag("Yodachair.png", class: "img-fluid") %>
-        <%= product.description %><br>
+        <%= image_tag("elephantpiece.jpg", class: "img-fluid") %>
+        <%= product.description %>
+        <br>
         <%= product.colour %>
         <strong>€ 300</strong>
         <br>
@@ -44,7 +45,6 @@
       </div>
     <% end %>
   </div>
-</div>
 </div>
 
 <br>

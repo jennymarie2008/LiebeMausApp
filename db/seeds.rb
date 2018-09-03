@@ -5,4 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Product.create(name: "Yodachair", description: "Yoda explores the natural tension of the material and supports your back with comfort and style.")
+Product.create(name: "Elephantstudy", description: "Part cabinet, part study, this modular piece evolves into a working desk with a drawer and several compartments for tomes and artifacts.")
